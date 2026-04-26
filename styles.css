@@ -366,6 +366,12 @@ strong { font-weight: 600; color: var(--text); }
 }
 .draft-block.revised:hover { box-shadow: var(--shadow-md), inset 3px 0 0 var(--navy); }
 
+.draft-block.revised p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.9375rem;
+  line-height: 2;
+}
+
 .draft-label {
   display: inline-block;
   font-size: 0.6875rem;
